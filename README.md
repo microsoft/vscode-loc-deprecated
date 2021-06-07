@@ -9,7 +9,7 @@ Language pack extensions are published to the [Visual Studio Code Marketplace](h
 The languages in this respository are listed here:
 
 |Language|Visual Studio Code Language ID|MLCP Language Code|
-|--------|--------|--------|--------|
+|--------|--------|--------|
 |**Bulgarian**|bg|Bulgarian (bg-bg)
 |**English (United Kingdom)**|en-GB|English (en-gb)
 |**Hungarian**|hu|Hungarian (hu-hu)
