@@ -1,33 +1,36 @@
-# Project
+# Visual Studio Code Language Packs (deprecated)
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+> The currently supported Language Pack extensions for Visual Studio Code can be found in the [vscode-loc](https://github.com/Microsoft/vscode-loc) repository.
 
-As the maintainer of this project, please make a few updates:
+This repository contains files to build deprecated Language Pack extensions for Visual Studio Code. A Language Pack contains the localized string resources for a particular language. These were originally in the main [vscode-loc](https://github.com/Microsoft/vscode-loc) repository but have been removed because they are no longer maintained.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Language pack extensions are published to the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Language%20Packs&sortBy=Installs)
+
+The languages in this respository are listed here:
+
+|Language|Visual Studio Code Language ID|MLCP Language Code|
+|--------|--------|--------|--------|
+|**Bulgarian**|bg|Bulgarian (bg-bg)
+|**English (United Kingdom)**|en-GB|English (en-gb)
+|**Hungarian**|hu|Hungarian (hu-hu)
+|**Indonesian**|id|Indonesian (id-id)
+|**Dutch**|nl|Dutch (nl-nl)
+|**Pseudo**|ps|Pseudo (ps-ps)
+|**Ukrainian**|uk|Ukrainian (uk-uk)
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Since translation strings are managed and edited in Microsoft Localization Platform. Change can only be made there. So pull request won't be accepted in vscode-loc repo except language pack readme.md.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Legal
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Before we can accept your pull request you will need to sign a **Contribution License Agreement**. All you need to do is to submit a pull request, then the PR will get appropriately labelled (e.g. `cla-required`, `cla-norequired`, `cla-signed`, `cla-already-signed`). If you already signed the agreement we will continue with reviewing the PR, otherwise system will tell you how you can sign the CLA. Once you sign the CLA all future PR's will be labeled as `cla-signed`.
 
-## Trademarks
+# Microsoft Open Source Code of Conduct
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+This project has adopted the [**Microsoft Open Source Code of Conduct**](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [**Code of Conduct FAQ**](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [**opencode@microsoft.com**](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## License 
+[MIT](LICENSE.md)
